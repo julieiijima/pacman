@@ -1,0 +1,39 @@
+.circle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    border-radius: 50%;
+    left: 650px;
+    top: 350px;
+    font-family: Alfarn;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    z-index: 3;
+}
+
+.pacman {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    size: 100px;
+    border-radius: 50%;
+    border: solid 100px;
+    border-color: yellow transparent yellow yellow;
+    left: 650px;
+    top: 350px;
+    z-index: 2;
+}
+
+/*.yellow {*/
+    /*position: absolute;*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+    /*background: yellow;*/
+    /*border-radius: 50%;*/
+    /*left: 650px;*/
+    /*top: 350px;*/
+    /*z-index: 1;*/
+/*}*/
+
